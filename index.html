@@ -169,7 +169,13 @@
         </script>
         <script>
             
-      acpopup('create', 'AP-5LWkcDuBba9zgWvog');
+      acpopup('create', 'AP-5LWkcDuBba9zgWvog', {
+            matching_mode: 'email',
+            matching: {
+                email: 'anton.sysykin@altcraft.com',
+                db_ids: [1]
+            }
+        });
       acpopup('show', 'AP-5LWkcDuBba9zgWvog');
     
         </script>
